@@ -1,0 +1,12 @@
+/* 
+    header -> clase padre
+    descripcion -> clase hijo
+*/
+
+.header .descripcion{
+    color: red;
+}
+
+.descripcion{
+    color: blue;
+}
