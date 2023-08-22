@@ -77,6 +77,12 @@ img {
     transition: background-color .3s ease-out;
     text-align: center;
     border: none;
+    width: 100%;
+}
+@media(min-width: 768px) { 
+    .btn{
+        width: auto;
+    }
 }
 
 .btn:hover {
@@ -429,6 +435,29 @@ img {
 .contenido-entrada-blog {
     width: 60rem;
     margin: 0 auto;
+}
+
+/* Galeria */
+
+.galeria {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+@media(min-width: 768px) {
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.galeria img {
+    height: 40rem;
+    width: 40rem;
+    object-fit: cover;
 }
 
 /* Formulario */
