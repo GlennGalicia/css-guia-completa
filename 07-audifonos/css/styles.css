@@ -12,7 +12,22 @@
 
 }
 
-/* Global */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*  rems */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
+
+/* Globales */
