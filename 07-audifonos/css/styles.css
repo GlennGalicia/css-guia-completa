@@ -2,6 +2,14 @@
 :root {
     --fuentePrincipal: 'Roboto', sans-serif;
     --fuenteSecundaria: 'Lato', sans-serif;
+
+    --primario: #1073BA;
+    --secundario: #00DA55;
+    --grid: #3B3b3b;
+    --blanco: #FFF;
+    --negro: #1F1E1E;
+    --grisClaro: #E1E1E1;
+
 }
 
 /* Global */
