@@ -10,6 +10,7 @@
     --negro: #1F1E1E;
     --grisClaro: #E1E1E1;
 
+    --separacion: 5rem;
 }
 
 html {
@@ -31,3 +32,33 @@ body {
 }
 
 /* Globales */
+.contenedor {
+    max-width: 1200rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    font-family: var(--fuenteSecundaria);
+    margin: calc(var(--separacion / 2) 0);
+}
+
+h1 {
+    font-size: 4.4rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+/* Utilidades */
+.text-center{
+    text-align: center;
+}
