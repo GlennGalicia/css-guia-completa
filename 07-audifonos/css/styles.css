@@ -169,16 +169,38 @@ img {
 
 /* Sobre TechPro */
 .sobre-teach {
-    background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
     background-position: right;
     background-repeat: repeat, no-repeat;
     background-size: 100%, 110rem;
 }
 
+.notavif.notwebp .sobre-teach {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
+}
+
+.webp .sobre-teach {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.webp);
+}
+
+.avif .sobre-teach {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.avif);
+}
+
 @media(min-width: 768px) {
     .sobre-teach {
-        background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
         background-repeat: repeat, no-repeat;
+    }
+
+    .notavif.notwebp .sobre-teach {
+        background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.jpg);
+    }
+
+    .webp .sobre-teach {
+        background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.webp);
+    }
+
+    .avif .sobre-teach {
+        background-image: linear-gradient(to left, transparent 50%, var(--primario) 0%), url(../img/imagen-mujer.avif);
     }
 }
 
